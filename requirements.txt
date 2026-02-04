@@ -1,0 +1,24 @@
+# Core LLM & LangChain
+langchain>=0.1.20
+langchain-core>=0.1.45
+langchain-community>=0.0.30
+
+# Google Gemini / LLM support
+langchain-google-genai>=1.0.2
+google-generativeai>=0.3.2
+
+# Streamlit UI
+streamlit>=1.31.0
+
+# Tools & utilities
+pytz>=2023.3
+python-dateutil>=2.8.2
+
+# HTTP requests
+requests>=2.31.0
+
+# Image & encoding
+Pillow>=10.2.0
+
+# Environment variables
+python-dotenv>=1.0.0
