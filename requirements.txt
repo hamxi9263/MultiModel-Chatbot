@@ -1,24 +1,26 @@
-# Core LLM & LangChain
+# Core LangChain
 langchain>=0.1.20
 langchain-core>=0.1.45
 langchain-community>=0.0.30
 
-# Google Gemini / LLM support
+# OpenAI-compatible LLMs (OpenRouter, GPT-OSS, OpenAI-style)
+langchain-openai>=0.1.7
+openai>=1.12.0
+
+# Gemini (if still used elsewhere)
 langchain-google-genai>=1.0.2
 google-generativeai>=0.3.2
 
-# Streamlit UI
+# UI
 streamlit>=1.31.0
 
-# Tools & utilities
+# Tools
 pytz>=2023.3
 python-dateutil>=2.8.2
-
-# HTTP requests
 requests>=2.31.0
 
-# Image & encoding
+# Images
 Pillow>=10.2.0
 
-# Environment variables
+# Env
 python-dotenv>=1.0.0
