@@ -8,7 +8,7 @@ OPENROUTER_API_KEY = "sk-or-v1-86bb9f443980af3bce9e0c734639869e587816f607a490820
 MODEL = "openai/gpt-4o-mini"
 
 st.set_page_config(page_title="🌍 AI World Clock Agent")
-st.title("🌍 AI World Clock Agent (Streaming)")
+st.title("🌍 AI World Clock Agent")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
